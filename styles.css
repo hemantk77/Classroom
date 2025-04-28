@@ -1,32 +1,23 @@
-#A {
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    border-radius: 50%;
-    margin: 25px;
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
 }
 
-#B {
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
-    border-radius: 50%;
-    margin: 25px;
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
 }
 
-#C {
-    height: 100px;
-    width: 100px;
-    background-color: green;
-    border-radius: 50%;
-    margin: 25px;
+button {
+    background-color: #f08804;
 }
 
-body {
-    width: 160px;
-    background-color: black;
+#logo {
+    color: #f08804;
+    font-size: 25px;
 }
 
-html {
-    background-color: white;
+a {
+    margin-right: 190px;
 }
