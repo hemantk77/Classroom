@@ -26,6 +26,9 @@ a {
     height: 100px;
     width: 100px;
     background-color: #f08804;
-    border: 10px;
-    border-color: #0f1111;
+    border: 2px solid black;
+}
+
+footer {
+    color: black;
 }
