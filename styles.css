@@ -1,31 +1,11 @@
-ul {
+div {
     background-color: pink;
-    display: flex;
-    justify-content: space-evenly;
+    height: 50px;
+    width: 50px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-li {
-    list-style-type: none;
-    background-color: burlywood;
-}
-
-.outer {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(210, 29, 101);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.inner {
-    height: 100px;
-    width: 100px;
-    background-color:chocolate;
-    align-self: flex-start;
+@media (width : 600px) {
+    div {
+        background-color: red;
+    }
 }
