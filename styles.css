@@ -1,4 +1,4 @@
-div {
+ul {
     background-color: pink;
     display: flex;
     justify-content: space-evenly;
@@ -7,11 +7,9 @@ div {
 a {
     text-decoration: none;
     color: black;
-    background-color: rgb(239, 110, 110);
 }
 
 li {
     list-style-type: none;
-    display: inline;
+    background-color: burlywood;
 }
-
