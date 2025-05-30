@@ -1,7 +1,16 @@
 div {
     border-radius: 50%;
-    background-color: coral;
-    height: 100px;
-    width: 100px;
-    border
+    height: 200px;
+    width: 200px;
+    border: 10px solid grey;
+    border-top: 10px solid black;
+    /* animation: loading 1s ease-in ; */
 }
+
+@keyframes loading {
+    0% {border-top: 10px solid black;}
+    33% {border-right: 10px solid black;}
+    66% {border-bottom: 10px solid black;}
+    100% {border-left: 10px solid black;}
+}
+
