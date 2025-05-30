@@ -3,9 +3,19 @@ div {
     width: 100px;
     background-color: brown;
     border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 2s; */
+    transition: all 2s ease-in 0.5s;
 }
 
 div:hover {
     background-color: lightblue;
     color: coral;
+    font-size: 20px;
+}
+
+div:active {
+    background-color: pink;
 }
