@@ -7,10 +7,12 @@ div {
     /* animation: loading 1s ease-in ; */
 }
 
-@keyframes loading {
-    0% {border-top: 10px solid black;}
-    33% {border-right: 10px solid black;}
-    66% {border-bottom: 10px solid black;}
-    100% {border-left: 10px solid black;}
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
