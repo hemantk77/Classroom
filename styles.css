@@ -18,7 +18,7 @@ div:hover {
     background-color: lightblue;
     color: coral;
     font-size: 20px;
-    transform: translate(20px, 50px);
+    transform: skew(50deg);
 }
 
 div:active {
